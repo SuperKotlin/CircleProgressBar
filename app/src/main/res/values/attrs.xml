@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <declare-styleable name="CircleProgressView">
+    <declare-styleable name="CircleProgressBar">
         <!--画笔宽度-->
         <attr name="progress_paint_width" format="dimension" />
         <!--画笔颜色-->
@@ -14,5 +13,4 @@
             <enum name="bottom" value="4" />
         </attr>
     </declare-styleable>
-
 </resources>

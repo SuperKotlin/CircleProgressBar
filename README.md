@@ -1,7 +1,7 @@
-#CircleProgress
+#CircleProgressBar
 ##效果演示:
 
- - 详细介绍博客：[自定义View_手把手教你撸出一个圆形加载进度条](http://www.jianshu.com/p/be71f6ffe512)
+ - 详细介绍博客：[自定义View_一个加特效的圆形加载条](http://www.jianshu.com/p/3cfcdde05ea8)
 
 ![](/art/circleprogressbar.gif)
 

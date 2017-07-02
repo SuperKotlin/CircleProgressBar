@@ -12,10 +12,10 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by zhuyong on 2017/6/30.
+ * Created by zhuyong on 2017/7/2.
  */
 
-public class CircleProgressView extends View {
+public class CircleProgressBar extends View {
 
     private int mCurrent = 0;//当前进度
     private Paint mPaintCurrent;
@@ -43,21 +43,21 @@ public class CircleProgressView extends View {
         }
     };
 
-    public CircleProgressView(Context context) {
+    public CircleProgressBar(Context context) {
         this(context, null);
     }
 
-    public CircleProgressView(Context context, @Nullable AttributeSet attrs) {
+    public CircleProgressBar(Context context, @Nullable AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public CircleProgressView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public CircleProgressBar(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         //获取属性值
-        TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.CircleProgressView);
-        location = array.getInt(R.styleable.CircleProgressView_progress_location, 2);
-        mPaintWidth = array.getDimension(R.styleable.CircleProgressView_progress_paint_width, dip2px(context, 4));//默认4dp
-        mPaintColor = array.getColor(R.styleable.CircleProgressView_progress_paint_color, mPaintColor);
+        TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.CircleProgressBar);
+        location = array.getInt(R.styleable.CircleProgressBar_progress_location, 2);
+        mPaintWidth = array.getDimension(R.styleable.CircleProgressBar_progress_paint_width, dip2px(context, 4));//默认4dp
+        mPaintColor = array.getColor(R.styleable.CircleProgressBar_progress_paint_color, mPaintColor);
         array.recycle();
         initPaint();
     }

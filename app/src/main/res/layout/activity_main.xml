@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
-
-    <com.example.zhuyong.circleprogressbar.CircleProgressView
+    <com.example.zhuyong.circleprogressbar.CircleProgressBar
         android:id="@+id/circle_view"
         android:layout_width="150dp"
         android:layout_height="150dp"
         app:progress_location="top"
         app:progress_paint_color="#FF4081"
         app:progress_paint_width="4dp" />
-
-
 </LinearLayout>
